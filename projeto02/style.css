@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    background-image:linear-gradient(to top,#182E37, #2B5363, #346579);
+    background-attachment: fixed
+}
+main {
+    background-color: white;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3px;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+h2#principal {
+    background-color: #182E37;
+    color: white;
+}
+.iniciante {
+    color: white;
+    background-color: #1F6B29;
+}
+.intermediario {
+    color: white;
+    background-color: #EBD215;
+}
+.avançado {
+    color: white;
+    background-color: #EB2E06;
+}
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+div:hover {
+    background-color: lightblue;
+}
+div#escondido > p {
+    display: none;
+}
+div#escondido:hover > p {
+    display: block;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+a:active {
+    color: green;
+}
+a::after {
+    content: ' [link]';
+    text-decoration: none;
+    color: darkgray;
+}
